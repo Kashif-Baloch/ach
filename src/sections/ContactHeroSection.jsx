@@ -1,6 +1,6 @@
 const ContactHeroSection = () => {
   return (
-    <div className="mt-[10rem] w-[85%] max-w-6xl mx-auto ">
+    <div className="mt-[10rem] container mx-auto max-w-6xl px-4">
       <div className="lg:w-1/2">
         <h1 className="text-4xl my-6 font-bold">About Us</h1>
         <p>

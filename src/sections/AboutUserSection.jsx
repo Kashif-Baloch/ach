@@ -53,27 +53,27 @@ const AboutUserSection = () => {
   ];
 
   return (
-    <div>
+    <div className="container mx-auto max-w-6xl">
       <div className="flex items-center w-[80%] max-w-5xl mx-auto mt-[5rem] justify-center flex-col gap-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">Meet Our Team</h1>
         <p>Dedicated professionals committed to compassionate care</p>
       </div>
-      <div className="container max-w-5xl mx-auto px-4">
+      <div className="mt-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1">
           {teamMembers.map((elem, index) => {
             return (
               <div
                 key={index}
-                className="bg-white flex items-center justify-center flex-col gap-1 rounded-lg p-6 my-6 text-center"
+                className="bg-white flex items-center flex-col gap-1 rounded-lg p-6 my-6 text-center"
               >
                 <img
                   src="/pngs/servicesbg1.png"
                   alt="Team Member 1"
                   className="w-40 h-40 rounded-full mb-4"
                 />
-                <h1 className="text-xl">{elem.role}</h1>
+                <h1 className="text-xl font-bold">{elem.role}</h1>
                 <h3 className="font-thin mb-2">{elem.name}</h3>
-                <p className="">{elem.description}</p>
+                <p className="text-center w-[95%]">{elem.description}</p>
                 <div className="flex items-center mt-2 gap-2">
                   <a href="#">
                     <img

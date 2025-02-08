@@ -1,8 +1,8 @@
 const FormSection = () => {
   return (
-    <div>
-      <section className="bg-gradient-to-b from-gray-100 to-gray-200 p-8 md:p-16">
-        <div className="max-w-7xl pb-40 mx-auto bg-white p-8 rounded-lg ">
+    <div className="bg-gradient-to-b from-gray-100 to-gray-200">
+      <section className="px-4 py-8 md:py-16 ">
+        <div className="pb-40 bg-white py-8 rounded-lg container mx-auto max-w-[70rem] px-8">
           <div className="flex lg:flex-row flex-col lg:items-center lg:justify-between mb-6">
             <h2 className="text-3xl lg:w-2/3 font-bold mb-4">Get in Touch</h2>
             <p className="text-gray-600 md:mr-24  lg:w-2/4 mb-6">

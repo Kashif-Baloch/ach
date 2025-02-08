@@ -24,11 +24,7 @@ const Navbar = () => {
     <header>
       <nav id="#home" className={`fixed bg-white top-0 left-0 w-full z-50`}>
         <div
-          className={`flex ${
-            width
-              ? "container mx-auto max-w-7xl px-4 sm:px-8 lg:px-18"
-              : "w-full px-4 sm:px-7 lg:px-9"
-          } justify-between items-center h-16 md:h-20 lg:h-[5rem]`}
+          className={`flex container px-4 mx-auto max-w-6xl justify-between items-center h-16 md:h-20 lg:h-[5rem]`}
         >
           <Link
             to="/"
@@ -63,7 +59,7 @@ const Navbar = () => {
             <h1 className="text-[18px] font-semibold">Crown2ADF</h1>
           </Link>
 
-          <ul className="hidden lg:flex items-center justify-center space-x-4">
+          <ul className="hidden lg:flex items-center justify-center space-x-8">
             <li>
               <Link
                 to="/"

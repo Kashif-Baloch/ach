@@ -18,29 +18,22 @@ const HeroSection = () => {
   return (
     <section>
       <div
-        className={`${
-          width
-            ? "container mx-auto max-w-6xl px-4 sm:px-8 lg:px-18"
-            : "w-full "
-        }
-          } flex mt-[5rem] items-center justify-center md:h-screen overflow-hidden`}
+        className={`container mx-auto max-w-6xl px-4 flex mt-[1rem] lg:mt-[5rem] items-center justify-center md:h-full overflow-hidden`}
       >
-        <div className="flex flex-col-reverse justify-between gap-4 md:flex-row items-center w-full">
-          <div
-            className={`w-full ${width ? "w-1/1" : "lg:ml-20 md:w-[20rem]"} `}
-          >
-            <h2 className="text-4xl lg:text-7xl text-center md:text-left font-[600]">
+        <div className="flex colf gap-12 md:flex-row justify-between md:items-center w-full">
+          <div className={`lg:w-1/5 mt-6 md:mt-0`}>
+            <h2 className="text-4xl lg:text-7xl md:text-left font-[600]">
               Crown2 Adult Family Home
             </h2>
             <h3
               className={`${
-                width ? "w-[30rem]" : "w-[20rem]"
-              } mt-6 md:mt-10 text-md lg:text-[16px] text-center md:text-left font-light tracking-wider leading-relaxed`}
+                width ? "w-[27rem]" : "w-[20rem]"
+              }  md:mt-10 text-md my-4 md:h-auto lg:text-[16px] md:text-left font-light tracking-wider leading-relaxed`}
             >
               Providing specialized memory care and medical services in a
               family-friendly environment.
             </h3>
-            <div className="mt-14 flex flex-col sm:flex-row justify-center md:justify-start">
+            <div className="md:mt-14 relative flex flex-col sm:flex-row justify-start">
               <Link to="#">
                 <img
                   src="/svgs/svgexport-7.svg"
@@ -49,10 +42,10 @@ const HeroSection = () => {
               </Link>
             </div>
           </div>
-          <div className="relative flex  md:w-1/2 justify-center md:justify-end">
+          <div className="relative max-h-[300px] md:max-h-fit flex md:w-1/2 justify-center md:justify-end">
             <img src="/pngs/hero-bg.png" />
             <img
-              className="absolute lg:top-[40%] lg:-left-24 lg:translate-y-[-50%]"
+              className="absolute bottom-[-30px] w-[20rem] md:w-fit max-h-[170px] md:max-h-fit md:top-[40%] md:-left-24 md:translate-y-[-50%]"
               src="/pngs/hero-up.png"
             />
           </div>

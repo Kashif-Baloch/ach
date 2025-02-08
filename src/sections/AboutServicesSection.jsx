@@ -20,7 +20,7 @@ const AboutServicesSection = () => {
   ];
   return (
     <div>
-      <div className="container max-w-5xl mx-auto px-6 py-8">
+      <div className="container mx-auto max-w-6xl px-4 py-8">
         <h1 className="text-5xl font-bold text-center text-black mb-12">
           Our Facility
         </h1>

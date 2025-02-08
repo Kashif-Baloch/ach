@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+/* 420px */
+
+@media screen and (width<=420px) {
+  .rowroom {
+    flex-direction: column;
+  }
+
+  .bokbtn {
+    margin-block: 1rem;
+  }
+}
+
+@media screen and (width<=884px) {
+  .colf {
+    flex-direction: column-reverse;
+  }
+}

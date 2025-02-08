@@ -29,7 +29,7 @@ const AboutQualitySection = () => {
   ];
   return (
     <div>
-      <div className="container max-w-5xl mx-auto px-6 py-8">
+      <div className="container mx-auto max-w-6xl px-4 py-12">
         <h1 className="text-5xl font-bold text-center text-black mb-12">
           Quality Care
         </h1>
@@ -39,7 +39,7 @@ const AboutQualitySection = () => {
             return (
               <div
                 key={index}
-                className="flex items-center justify-center p-4 flex-col text-center"
+                className="flex items-center p-4 flex-col text-center"
               >
                 <img className="w-8 my-3 h-8" src={elem.img} alt="" />
                 <h2 className="text-xl font-semibold mb-2">{elem.title}</h2>
