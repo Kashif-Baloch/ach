@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 const AboutQualitySection = () => {
   const services = [
     {
-      img: "/public/svgs/pin.svg",
+      img: "/svgs/pin.svg",
       title: "Personal Attention",
       desc: "A compassionate approach is at the heart of everything we do, ensuring our residents feel supported and cared for.",
       btn: "Learn More",
     },
     {
-      img: "/public/svgs/upload.svg",
+      img: "/svgs/upload.svg",
       title: "Specialized Programs",
       desc: "Each resident receives personal attention from our team, creating meaningful and trusting relationships.",
       btn: "Explore Programs",
     },
     {
-      img: "/public/svgs/download.svg",
+      img: "/svgs/download.svg",
       title: "Individualized Support",
       desc: "Our specialized programs are designed to meet the unique needs of individuals with Alzheimer's or dementia.",
       btn: "Get Personalized Care",
     },
     {
-      img: "/public/svgs/circle.svg",
+      img: "/svgs/circle.svg",
       title: "24/7 Assistance",
       desc: "We provide individualized support to ensure that each resident receives the care and attention they deserve.",
       btn: "Contact Us",

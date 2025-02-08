@@ -40,7 +40,7 @@ const ServicesSection = () => {
             </div>
           </div>
           <div className="relative flex justify-center md:justify-end">
-            <img src="/public/pngs/servicesbg1.png" />
+            <img src="/pngs/servicesbg1.png" />
           </div>
         </div>
       </div>

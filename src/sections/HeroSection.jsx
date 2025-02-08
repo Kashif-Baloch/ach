@@ -43,17 +43,17 @@ const HeroSection = () => {
             <div className="mt-14 flex flex-col sm:flex-row justify-center md:justify-start">
               <Link to="#">
                 <img
-                  src="/public/svgs/svgexport-7.svg"
+                  src="/svgs/svgexport-7.svg"
                   className="rotate-180 w-10 h-10"
                 />
               </Link>
             </div>
           </div>
           <div className="relative flex  md:w-1/2 justify-center md:justify-end">
-            <img src="/public/pngs/hero-bg.png" />
+            <img src="/pngs/hero-bg.png" />
             <img
               className="absolute lg:top-[40%] lg:-left-24 lg:translate-y-[-50%]"
-              src="/public/pngs/hero-up.png"
+              src="/pngs/hero-up.png"
             />
           </div>
         </div>

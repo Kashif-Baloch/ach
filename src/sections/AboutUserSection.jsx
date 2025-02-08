@@ -67,7 +67,7 @@ const AboutUserSection = () => {
                 className="bg-white flex items-center justify-center flex-col gap-1 rounded-lg p-6 my-6 text-center"
               >
                 <img
-                  src="/public/pngs/servicesbg1.png"
+                  src="/pngs/servicesbg1.png"
                   alt="Team Member 1"
                   className="w-40 h-40 rounded-full mb-4"
                 />
@@ -78,28 +78,28 @@ const AboutUserSection = () => {
                   <a href="#">
                     <img
                       className="w-4 h-4"
-                      src="/public/pngs/insta.png"
+                      src="/pngs/insta.png"
                       alt={elem.socialLinks.instagram}
                     />
                   </a>
                   <a href="#">
                     <img
                       className="w-4 h-4"
-                      src="/public/pngs/fb.png"
+                      src="/pngs/fb.png"
                       alt={elem.socialLinks.facebook}
                     />
                   </a>
                   <a href="#">
                     <img
                       className="w-4 h-4"
-                      src="/public/pngs/x.png"
+                      src="/pngs/x.png"
                       alt={elem.socialLinks.twitter}
                     />
                   </a>
                   <a href="#">
                     <img
                       className="w-4 h-4"
-                      src="/public/pngs/in.png"
+                      src="/pngs/in.png"
                       alt={elem.socialLinks.linkedin}
                     />
                   </a>
