@@ -5,6 +5,7 @@ const AboutUserSection = () => {
     {
       name: "Akilu B Alene",
       role: "Co-owner/caregiver",
+      img: "https://randomuser.me/portraits/men/19.jpg",
       description:
         "With nearly two decades of care giving experience and a love and passion for helping others you can trust him to get the job done",
       socialLinks: {
@@ -16,6 +17,7 @@ const AboutUserSection = () => {
     },
     {
       name: "Mulualem A. Humeta",
+      img: "https://randomuser.me/portraits/men/20.jpg",
       role: "Co-owner/caregiver",
       description:
         "With over a decade of care giving experience, her dedication and love for the people she works with is unmatchable",
@@ -28,6 +30,7 @@ const AboutUserSection = () => {
     },
     {
       name: "David Lee",
+      img: "https://randomuser.me/portraits/men/21.jpg",
       role: "Medical Specialist",
       description:
         "We are committed to promoting well-being and enhancing the quality of life for all residents under our care.",
@@ -40,6 +43,7 @@ const AboutUserSection = () => {
     },
     {
       name: "Maria Garcia",
+      img: "https://randomuser.me/portraits/men/22.jpg",
       role: "Dietician",
       description:
         "Our diverse team members are united in their dedication to providing personalized and compassionate care to each individual.",
@@ -67,7 +71,7 @@ const AboutUserSection = () => {
                 className="bg-white flex items-center flex-col gap-1 rounded-lg p-6 my-6 text-center"
               >
                 <img
-                  src="/pngs/servicesbg1.png"
+                  src={elem.img}
                   alt="Team Member 1"
                   className="w-40 h-40 rounded-full mb-4"
                 />

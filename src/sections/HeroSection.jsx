@@ -43,10 +43,10 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="relative max-h-[300px] md:max-h-fit flex md:w-1/2 justify-center md:justify-end">
-            <img src="/pngs/hero-bg.png" />
+            <img src="/pngs/imghero.jpg" />
             <img
               className="absolute bottom-[-30px] w-[20rem] md:w-fit max-h-[170px] md:max-h-fit md:top-[40%] md:-left-24 md:translate-y-[-50%]"
-              src="/pngs/hero-up.png"
+              src="/pngs/imagetop.jpg"
             />
           </div>
         </div>
