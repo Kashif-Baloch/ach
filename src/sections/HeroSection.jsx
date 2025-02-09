@@ -34,12 +34,12 @@ const HeroSection = () => {
               family-friendly environment.
             </h3>
             <div className="md:mt-14 relative flex flex-col sm:flex-row justify-start">
-              <Link to="#">
+              <a href="#rooms">
                 <img
                   src="/svgs/svgexport-7.svg"
                   className="rotate-180 w-10 h-10"
                 />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="relative max-h-[300px] md:max-h-fit flex md:w-1/2 justify-center md:justify-end">

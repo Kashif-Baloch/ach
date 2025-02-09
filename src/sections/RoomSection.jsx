@@ -12,7 +12,10 @@ const RoomSection = () => {
     <div className="container mx-auto max-w-6xl px-4 py-16">
       {showModal && <Modal handleModal={handleModal} />}
       <div>
-        <h1 className="text-5xl border-b border-gray-400 py-8 font-bold">
+        <h1
+          id="rooms"
+          className="text-5xl border-b border-gray-400 py-8 font-bold"
+        >
           Crown2 ADF
         </h1>
         {Array(6)

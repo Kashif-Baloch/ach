@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navbarHandler = () => {
     const mobileMenu = document.getElementById("mobileMenu");
     mobileMenu.classList.toggle("hidden");
+    window.scrollTo(0, 0);
+  };
+
+  // creating a scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
   };
 
   const [width, setWidth] = React.useState(false);
@@ -63,6 +69,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
+                onClick={scrollToTop}
                 className="text-black  transition-all hover:text-purple-600"
               >
                 Home
@@ -71,6 +78,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/about"
+                onClick={scrollToTop}
                 className="text-black  transition-all hover:text-purple-600"
               >
                 About
@@ -79,6 +87,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact"
+                onClick={scrollToTop}
                 className="text-black  transition-all hover:text-purple-600"
               >
                 Contact
